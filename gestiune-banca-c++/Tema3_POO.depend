@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1589126374 source:c:\users\liviu tomescu\desktop\tema3_poo\main.cpp
+	<iostream>
+	"Banca.h"
+
+1588957434 source:c:\users\liviu tomescu\desktop\tema3_poo\src\cont.cpp
+	"Cont.h"
+
+1589125360 c:\users\liviu tomescu\desktop\tema3_poo\include\cont.h
+	<iostream>
+	<string>
+	<vector>
+	<unordered_set>
+	<random>
+	<functional>
+	<time.h>
+
+1589126067 source:c:\users\liviu tomescu\desktop\tema3_poo\src\contecon.cpp
+	"ContEcon.h"
+
+1589125537 c:\users\liviu tomescu\desktop\tema3_poo\include\contecon.h
+	"Cont.h"
+
+1589126950 source:c:\users\liviu tomescu\desktop\tema3_poo\src\contcurent.cpp
+	"ContCurent.h"
+
+1589126427 c:\users\liviu tomescu\desktop\tema3_poo\include\contcurent.h
+	"Cont.h"
+
+1589126617 c:\users\liviu tomescu\desktop\tema3_poo\include\gestionareconturi.h
+	<iostream>
+	<string>
+	<vector>
+	<unordered_map>
+
+1589042103 c:\users\liviu tomescu\desktop\tema3_poo\include\banca.h
+	"Cont.h"
+	"ContEcon.h"
+	"ContCurent.h"
+	"GestionareConturi.h"
+
