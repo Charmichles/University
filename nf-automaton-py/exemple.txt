@@ -1,0 +1,22 @@
+exemple de forma:
+start
+finish1 finish2 finish3 ...
+nod1 nod2 lista_caractere
+nod1 nod2 lista_caractere
+...
+
+q0
+q4 q7
+q0 q1 a
+q1 q1 b
+q0 q2 a
+q2 q0 d
+q2 q3 b c
+q3 q2 a
+q3 q4 d
+q2 q5 c
+q5 q6 c a
+q6 q5 c
+q5 q7 a
+q6 q7 d
+q7 q7 d
