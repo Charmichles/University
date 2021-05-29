@@ -1,0 +1,7 @@
+id,id_expeditor,id_destinatar,valuta,valoare,soldul_zilei,mesaj,data
+1,cont1,cont1,lei,200.0,0.0,Alimentare cont,Mon May 24 01:02:38 EEST 2021
+2,cont1,cont1,lei,50.0,200.0,Creeare depozit,Mon May 24 01:02:49 EEST 2021
+3,cont3,cont3,lei,1000.0,0.0,Alimentare cont,Mon May 24 01:04:06 EEST 2021
+4,cont3,cont4,lei,200.0,0.0,pentru card,Mon May 24 01:04:27 EEST 2021
+5,cont3,cont3,lei,500.0,800.0,Creeare depozit,Mon May 24 01:04:41 EEST 2021
+4,cont3,cont4,lei,200.0,0.0,pentru card,Mon May 24 01:04:27 EEST 2021
