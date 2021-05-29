@@ -2,6 +2,7 @@ from __future__ import annotations
 
 # Lab APCM - https://drive.google.com/drive/u/0/folders/1gx37SoaLjPB-PLQ-SXGfK40e6QmWTAiQ
 # Brihac Andrei, Grupa 233
+# https://github.com/Charmichles/University
 # pentru restanta la laboratorul de Algoritmi Fundamentali
 
 import sys

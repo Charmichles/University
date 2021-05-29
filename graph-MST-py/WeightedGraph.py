@@ -6,8 +6,7 @@ from FibonacciHeap import FibonacciHeap
 from DisjointSet import DisjointSet, DisjointSetNode
 
 
-# din proiectul meu pentru IA - o functie decorator pentru timpul de rulare a altei functii
-# https://github.com/Charmichles/Facultate/blob/master/pygame-checkers/main.py
+# din proiectul meu pentru IA pygame-checkers - o functie decorator pentru timpul de rulare a altei functii
 def timing(f):
     '''
         Decorator which prints the execution time of a function using the time package.\n
