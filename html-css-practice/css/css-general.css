@@ -1,0 +1,144 @@
+@font-face {
+    font-family: "Important";
+    src: url("important-font.ttf");
+}
+
+body {
+    font-family: "Important", "Times New Roman";
+    margin: 0px;
+    background-image: url("../imgs/bg.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.7);
+}
+
+h2 {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.important {
+    color: #DFE4DE;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+}
+
+nav {
+    display: grid;
+    text-align: center;
+}
+
+nav .content {
+    display: grid;
+    place-items: center;
+    grid-auto-flow: column;
+    grid-template-columns: 50% 50%;
+    align-content: space-evenly;
+}
+
+nav .content .links {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+nav a:hover {
+    opacity: 50%;
+}
+
+nav .content .links a {
+    color: #DFE4DE;
+    font-weight: bold;
+}
+
+nav .content .links .active {
+    color: #F95151;
+}
+
+nav .mobile-menu .active {
+    color: #F95151;
+}
+
+nav .mobile-menu {
+    display: none;
+}
+
+.plain-text {
+    text-align: justify;
+}
+
+.img-text {
+    font-size: 20px;
+}
+
+.two-col-grid {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 50% 50%;
+    align-content: space-evenly;
+}
+
+@media screen and (min-width: 901px) and (max-width: 1365px) {
+    nav .content .links {
+        gap: 25px;
+    }
+    nav .content h1 {
+        font-size: 38px;
+    }
+    nav .content .links a {
+        font-size: 30px;
+    } 
+}
+
+@media screen and (min-width: 724px) and (max-width: 1365px) {
+    nav .content .links {
+        gap: 35px;
+    }
+    nav .content h1 {
+        font-size: 30px;
+    }
+    nav .content .links a {
+        font-size: 22px;
+    } 
+}
+
+@media screen and (min-width: 1366px) {
+    nav .content .links {
+        gap: 50px;
+    }
+    nav .content h1 {
+        font-size: 48px;
+    }
+    nav .content .links a {
+        font-size: 40px;
+    } 
+}
+
+@media screen and (max-width: 723px) {
+    nav .content {
+        grid-template-columns: 100%;
+    }
+    nav .mobile-menu a {
+        font-size: 30px;
+    }
+    nav .mobile-menu {
+        display: grid;
+        place-items: center;
+    }
+    nav .content .links {
+        display: none;
+    }
+    nav .content h1 {
+        font-size: 30px;
+    }
+    .two-col-grid {
+        grid-auto-flow: row;
+        grid-template-columns: 100%;
+    }
+    h2 {
+        font-size: 30px;
+    }
+}

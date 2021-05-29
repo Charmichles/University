@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+    <head>
+        <title>Tema 1 TW</title>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <link rel = "stylesheet" type = "text/css" href = "css/css-general.css">
+        <link rel = "stylesheet" type = "text/css" href = "css/css-gallery.css">
+        <link rel ="icon" href = "imgs/favicon.ico" type = "image/x-icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <nav>
+            <div class = "content">
+                <h1 class = "important">Here are some of my photos</h1>
+                <div class = "links">
+                    <a href="index.html" class = "important">Introduction</a>
+                    <a href="gallery.html" class = "important active">Gallery</a>
+                    <a href="equipment.html" class = "important">Equipment</a>
+                    <a href="contact.html" class = "important">Contact</a>
+                </div>
+            </div>
+            <div class = "mobile-menu">
+                <a href="index.html" class = "important">Introduction</a>
+                <a href="gallery.html" class = "important active">Gallery</a>
+                <a href="equipment.html" class = "important">Equipment</a>
+                <a href="contact.html" class = "important">Contact</a>
+            </div>
+        </nav>
+        <div class = "main-grid">
+            <div class = "dropdown-menu">
+                <div class = "current" onclick = "toggleMenu1()">
+                    <div class = "dropdown-button" id = "dropdown-button-current">
+                        <i class = "fa fa-bars icon-dropdown-button important"></i>
+                        <h2 class = "important" id = "current-text">Landscape pictures.</h2>
+                    </div>
+                    <div class = "dropdown-content hideContent" id = "dropdown-content-id">
+                        <div class = "dropdown-button" onclick = "toggleImgs1()">
+                            <i class = "fa fa-arrow-right icon-dropdown-button important"></i>
+                            <h2 class = "important">Landscape pictures.</h2>
+                        </div>
+                        <div class = "dropdown-button" onclick = "toggleImgs2()">
+                            <i class = "fa fa-arrow-right icon-dropdown-button important"></i>
+                            <h2 class = "important">Events pictures.</h2>
+                        </div>
+                        <div class = "dropdown-button" onclick = "toggleImgs3()">
+                            <i class = "fa fa-arrow-right icon-dropdown-button important"></i>
+                            <h2 class = "important">Art pictures.</h2>
+                        </div>
+                </div>
+                </div>
+            </div>
+            <div id = "imgs1" class = "">
+                <div class = "img"></div>
+                <div class = "img"></div>
+                <div class = "img"></div>
+                <div class = "img"></div>
+                <div class = "img"></div>
+                <div class = "img"></div>
+                <div class = "img"></div>
+            </div>
+            <div id = "imgs2" class = "hideContent">
+                <div class = "img">Image 1 Events</div>
+                <div class = "img">Image 2 Events</div>
+                <div class = "img">Image 3 Events</div>
+                <div class = "img">Image 4 Events</div>
+            </div>
+            <div id = "imgs3" class = "hideContent">
+                <div class = "img">Image 1 Art</div>
+                <div class = "img">Image 2 Art</div>
+                <div class = "img">Image 3 Art</div>
+            </div>
+        </div>
+        <script src = "scripts/dropdown-script.js"></script>
+    </body>
+</html>
