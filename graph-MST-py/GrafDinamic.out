@@ -1,0 +1,8 @@
+Muchiile APCM in G folosind Prim:
+2 3
+3 1
+4 1
+5 2
+Cost total 19
+Muchia de cost maxim din ciclul inchis de 3 5 in APCM este 5 2 de cost 11
+Dupa adaugarea muchiei APCM are costul 12
