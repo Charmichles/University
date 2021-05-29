@@ -1,0 +1,91 @@
+body {
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    font-size: max(1.5vw, 18px);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    background: #318fb5;
+    box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.75);
+    border: 1px solid #001244;
+    border-radius: 5px;
+    padding: min(5vw, 5vh);
+    margin-bottom: 2vh;
+}
+
+form.inactive {
+    display: none;
+}
+
+input, textarea, .rating-button {
+    box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.75);
+    border: 1px solid #001244;
+    border-radius: 5px;
+    font-size: 0.65em;
+    padding: min(2vw, 2vh);
+    margin-bottom: 2vh;
+}
+
+label {
+    margin-bottom: 2vh;
+}
+
+#comment-body {
+    width: 25vmax;
+    height: 10vmax;
+}
+
+#post-button {
+    cursor: pointer;
+}
+
+.comment {
+    display: flex;
+    flex-direction: column;
+    font-size: max(1.5vw, 18px);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    background: #318fb5;
+    box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.75);
+    border: 1px solid #001244;
+    border-radius: 5px;
+    padding: min(3vw, 3vh);
+    margin-bottom: 2vh;
+    width: 42vw;
+    word-wrap: break-word;
+}
+
+#comment-toggle-button {
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.75);
+    margin-bottom: 2.5vh;
+    padding: min(1.5vh, 1.5vw);
+    cursor: pointer;
+}
+
+#comments.inactive, .comment-content.inactive, .rating-wrapper.inactive, .hidden-text {
+    display: none;
+}
+
+.hidden-text.inactive {
+    display: block;
+}
+
+.comment-content {
+    font-size: 0.8em;
+}
+
+.rating-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.rating-button {
+    cursor: pointer;
+}

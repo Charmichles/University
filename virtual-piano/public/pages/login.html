@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+    <head>
+        <title>Virtual Piano Login</title>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <link rel ="icon" href = "../images/favicon.ico" type = "image/x-icon">
+        <link rel = "stylesheet" type = "text/css" href = "../style/general.css">
+        <link rel = "stylesheet" type = "text/css" href = "../style/navbar.css">
+        <link rel = "stylesheet" type = "text/css" href = "../style/form.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com/%22%3E">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id = "navbar">
+            <img src = "../images/login-logo.png" id = "logo" alt = "logo">
+            <div id = "links">
+                <span class = "navbar-link"><a href = "index.html">Practice</a></span>
+                <span class = "navbar-link"><a href = "learn.html">Learn</a></span>
+            </div>
+            <span class = "navbar-link"><a id = "login-button" href = "login.html">Login</a></span>
+        </div>
+        <form name = "login-form" id = "login-form" action = "javascript:;" onsubmit = "loginFunc(this)">
+            <label for = "login-username">Username:</label>
+            <input type = "text" id = "login-username" name = "login-username" value = "exampleusername" required minlength = "8" maxlength = "32" title = "At least 8 characters long.">
+            <label for = "login-password">Password:</label>
+            <input type = "password" id = "login-password" name = "login-password" value = "Examplepassword1" required pattern = "(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9]).{8,64}$" title = "At least 8 characters, minimum one digit and one uppercase letter.">
+            <input type = "submit" value = "Log in" id = "login-button-form">
+            <span id = "login-to-register-button">Click here to register an account.</span>
+        </form>
+        <form name = "register-form" id = "register-form" class = "inactive" action = "javascript:;" onsubmit = "registerFunc(this)">
+            <label for = "username">Username:</label>
+            <input type = "text" id = "username" name = "username" value = "exampleusername" required minlength = "8" maxlength = "32" title = "At least 8 characters long.">
+            <label for = "email">Email:</label>
+            <input type = "text" id = "email" name = "email" value = "example@email.dom" required pattern = "^[a-zA-z0-9_\.-]+@([a-zA-z0-9_-]+\.)+[a-zA-z0-9_-]{2,4}$" title = "Please enter a valid email adress.">
+            <label for = "password">Password:</label>
+            <input type = "password" id = "password" name = "password" value = "Examplepassword1" required pattern = "(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9]).{8,64}$" title = "At least 8 characters, minimum one digit and one uppercase letter.">
+            <label for = "level">Knowledge Level:</label>
+            <select id = "level" name = "level">
+                <option value = "beginner">Beginner</option>
+                <option value = "intermediate">Intermediate</option>
+                <option value = "advanced">Advanced</option>
+            </select>
+            <label for = "tips">Subscribe to weekly tips.</label>
+            <input type = "checkbox" id = "tips" name = "tips">
+            <input type = "submit" value = "Submit" id = "register-button-form">
+            <span id = "register-to-login-button">Click here to go back to login.</span>
+        </form>
+        <div id = "account-info" class = "inactive">
+            <p class = "account-info-text" id = "info-username"></p>
+            <p class = "account-info-text" id = "info-email"></p>
+            <p class = "account-info-text" id = "info-level"></p>
+            <p class = "account-info-text" id = "info-points"></p>
+            <p class = "account-info-text" id = "info-subscribed"></p>
+            <button id = "logout-button">Click here to logout.</button>
+        </div>
+        <script src = "../scripts/general-js.js"></script>
+        <script src = "../scripts/login-js.js"></script>
+        <script src = "https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    </body>
+</html>

@@ -1,0 +1,109 @@
+body {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    background-color: #144F9E;
+}
+
+#piano {
+    display: flex;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    width: 65%;
+    margin-bottom: 2.5vh;
+    gap: 5px;
+}
+
+.key {
+    position: relative;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.key.white {
+    width: 7.14%;
+    height: max(10vmax, 15vmax);
+    background-color: white;
+    border-bottom: max(0.60vh, 0.85vw) solid #DCDCDB;
+}
+
+.key.black {
+    background-color: #242424;
+    border-bottom: max(0.60vh, 0.85vw) solid #141414;
+    width: 3.365%;
+    height: max(7vmax, 9vmax);
+    margin-left: -1.6825%;
+    margin-right: -1.6825%;
+    z-index: 2;
+}
+
+.key.white.active {
+    background-color: #CCC;
+}
+
+.key.black.active {
+    background-color: #333;
+}
+
+.help-text {
+    font-size: 0.9vmax;
+}
+
+.help-text.white {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: black;
+}
+
+.help-text.black {
+    color: white;
+}
+
+.help-text.inactive, #timer.inactive, .start-text.inactive, #note-history.inactive, #requested-chord.inactive {
+    display: none;
+}
+
+#button-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 65%;
+    gap: 10px;
+    word-wrap: break-word;
+}
+
+#help-button, #start-button, #end-button, #check-button {
+    border: 0px solid black;
+    margin-bottom: 2.5vh;
+    padding: min(1.5vh, 1.5vw);
+    cursor: pointer;
+    color: #DCDCDB;
+    font-family: 'Zilla Slab', serif;
+    width: 40%;
+    font-size: max(1.5vw, 18px);
+    font-weight: bold;
+}
+
+#help-button {
+    background-color: #0E3469;
+    width: 10%;
+    font-size: max(1.5vw, 30px);
+}
+
+#check-button, #start-button {
+    background-color: #53CA9F;
+}
+
+#end-button {
+    background-color: #CA5353;
+}
+
+#timer, .start-text, #note-history, #requested-chord {
+    font-size: max(1.5vw, 18px);
+    text-align: center;
+}
+
+#start-button.inactive, #end-button.inactive, #check-button.inactive {
+    display: none;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+    <head>
+        <title>Virtual Piano Learn</title>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <link rel ="icon" href = "../images/favicon.ico" type = "image/x-icon">
+        <link rel = "stylesheet" type = "text/css" href = "../style/general.css">
+        <link rel = "stylesheet" type = "text/css" href = "../style/navbar.css">
+        <link rel = "stylesheet" type = "text/css" href = "../style/learn.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com/%22%3E">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;900&display=swap" rel="stylesheet">
+    </head>
+    <body onload = "initComments()">
+        <div id = "navbar">
+            <img src = "../images/learn-logo.jpg" id = "logo" alt = "logo">
+            <div id = "links">
+                <span class = "navbar-link"><a href = "index.html">Practice</a></span>
+                <span class = "navbar-link"><a href = "learn.html">Learn</a></span>
+            </div>
+            <span class = "navbar-link"><a id = "login-button" href = "login.html">Login</a></span>
+        </div>
+        <form action = "javascript:;" onsubmit = "addComment()" class = "inactive" id = "myform">
+            <label for = "comment-username">Username:</label>
+            <input type = "text" id = "comment-username" name = "comment-username">
+            <label for = "comment-body">Comment:</label>
+            <textarea id = "comment-body" name = "comment-body"></textarea>
+            <input type = "submit" value = "Post comment" id = "post-button">
+        </form>
+        <div id = "comments" class = "inactive">
+
+        </div>
+        <button id = "comment-toggle-button">Click here to toggle comments!</button>
+        <script src = "../scripts/general-js.js"></script>
+        <script src = "../scripts/comment-js.js"></script>
+    </body>
+</html>

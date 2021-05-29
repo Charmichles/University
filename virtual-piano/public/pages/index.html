@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+    <head>
+        <title>Virtual Piano Practice</title>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <link rel ="icon" href = "../images/favicon.ico" type = "image/x-icon">
+        <link rel = "stylesheet" type = "text/css" href = "../style/general.css">
+        <link rel = "stylesheet" type = "text/css" href = "../style/navbar.css">
+        <link rel = "stylesheet" type = "text/css" href = "../style/piano.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com/%22%3E">
+        <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id = "navbar">
+            <img src = "../images/text-logo.svg" id = "logo" alt = "logo">
+            <div id = "links">
+                <span class = "navbar-link"><a href = "index.html">Practice</a></span>
+                <span class = "navbar-link"><a href = "learn.html">Learn</a></span>
+            </div>
+            <span class = "navbar-link"><a id = "login-button" href = "login.html">Login</a></span>
+        </div>
+        <div id = "piano">
+            <div data-note = "C3" class = "white key"><span class = "help-text white">Note: C3 </br> Key: Z</span></div>
+            <div data-note = "Db3" class = "black key"><span class = "help-text black">Note: Db3 </br> Key: S</span></div>
+            <div data-note = "D3" class = "white key"><span class = "help-text white">Note: D3 </br> Key: X</span></div>
+            <div data-note = "Eb3" class = "black key"><span class = "help-text black">Note: Eb3 </br> Key: D</span></div>
+            <div data-note = "E3" class = "white key"><span class = "help-text white">Note: E3 </br> Key: C</span></div>
+            <div data-note = "F3" class = "white key"><span class = "help-text white">Note: F3 </br> Key: V</span></div>
+            <div data-note = "Gb3" class = "black key"><span class = "help-text black">Note: Gb3 </br> Key: G</span></div>
+            <div data-note = "G3" class = "white key"><span class = "help-text white">Note: G3 </br> Key: B</span></div>
+            <div data-note = "Ab3" class = "black key"><span class = "help-text black">Note: Ab3 </br> Key: H</span></div>
+            <div data-note = "A3" class = "white key"><span class = "help-text white">Note: A3 </br> Key: N</span></div>
+            <div data-note = "Bb3" class = "black key"><span class = "help-text black">Note: Bb3 </br> Key: J</span></div>
+            <div data-note = "B3" class = "white key"><span class = "help-text white">Note: B3 </br> Key: M</span></div>
+            <div data-note = "C4" class = "white key"><span class = "help-text white">Note: C4 </br> Key: Q</span></div>
+            <div data-note = "Db4" class = "black key"><span class = "help-text black">Note: Db3 </br> Key: 2</span></div>
+            <div data-note = "D4" class = "white key"><span class = "help-text white">Note: D4 </br> Key: W</span></div>
+            <div data-note = "Eb4" class = "black key"><span class = "help-text black">Note: Eb4 </br> Key: 3</span></div>
+            <div data-note = "E4" class = "white key"><span class = "help-text white">Note: E4 </br> Key: E</span></div>
+            <div data-note = "F4" class = "white key"><span class = "help-text white">Note: F4 </br> Key: R</span></div>
+            <div data-note = "Gb4" class = "black key"><span class = "help-text black">Note: Gb4 </br> Key: 5</span></div>
+            <div data-note = "G4" class = "white key"><span class = "help-text white">Note: G4 </br> Key: T</span></div>
+            <div data-note = "Ab4" class = "black key"><span class = "help-text black">Note: Ab4 </br> Key: 6</span></div>
+            <div data-note = "A4" class = "white key"><span class = "help-text white">Note: A4 </br> Key: Y</span></div>
+            <div data-note = "Bb4" class = "black key"><span class = "help-text black">Note: Bb4 </br> Key: 7</span></div>
+            <div data-note = "B4" class = "white key"><span class = "help-text white">Note: B4 </br> Key: U</span></div>
+        </div>
+        <audio id = "C3" src = "../sounds/C3.wav"></audio>
+        <audio id = "Db3" src = "../sounds/Db3.wav"></audio>
+        <audio id = "D3" src = "../sounds/D3.wav"></audio>
+        <audio id = "Eb3" src = "../sounds/Eb3.wav"></audio>
+        <audio id = "E3" src = "../sounds/E3.wav"></audio>
+        <audio id = "F3" src = "../sounds/F3.wav"></audio>
+        <audio id = "Gb3" src = "../sounds/Gb3.wav"></audio>
+        <audio id = "G3" src = "../sounds/G3.wav"></audio>
+        <audio id = "Ab3" src = "../sounds/Ab3.wav"></audio>
+        <audio id = "A3" src = "../sounds/A3.wav"></audio>
+        <audio id = "Bb3" src = "../sounds/Bb3.wav"></audio>
+        <audio id = "B3" src = "../sounds/B3.wav"></audio>
+        <audio id = "C4" src = "../sounds/C4.wav"></audio>
+        <audio id = "Db4" src = "../sounds/Db4.wav"></audio>
+        <audio id = "D4" src = "../sounds/D4.wav"></audio>
+        <audio id = "Eb4" src = "../sounds/Eb4.wav"></audio>
+        <audio id = "E4" src = "../sounds/E4.wav"></audio>
+        <audio id = "F4" src = "../sounds/F4.wav"></audio>
+        <audio id = "Gb4" src = "../sounds/Gb4.wav"></audio>
+        <audio id = "G4" src = "../sounds/G4.wav"></audio>
+        <audio id = "Ab4" src = "../sounds/Ab4.wav"></audio>
+        <audio id = "A4" src = "../sounds/A4.wav"></audio>
+        <audio id = "Bb4" src = "../sounds/Bb4.wav"></audio>
+        <audio id = "B4" src = "../sounds/B4.wav"></audio>
+
+        <div id = "button-wrapper">
+            <button id = "start-button">Click here to START practicing.</button>
+            <button id = "end-button" class = "inactive">Click here to STOP practicing.</button>
+            <button id = "help-button">?</button>
+        </div>
+        <p class = "start-text">The last notes you played are checked to see if they make up the requested chord.</p> 
+        <p class = "start-text">Press SPACE or click the CHECK button when you have played the correct chord.</p>
+        <p class = "start-text">If you're logged in, for every correct chord you play you get one point. See how many points you've accumulated on the Account page.</p>
+        <button id = "check-button" class = "inactive">CHECK</button>
+        <span id = "timer" class = "inactive"></span>
+        <p id = "requested-chord" class = "inactive">Requested chord: </p>
+        <p id = "note-history" class = "inactive">Notes played: </p>
+        <script src = "../scripts/general-js.js"></script>
+        <script src = "../scripts/piano-js.js"></script>
+        <script src = "https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    </body>
+</html>

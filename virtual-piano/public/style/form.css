@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+form {
+    display: grid;
+    place-items: center;
+    background-color: #318fb5;
+    grid-auto-flow: row;
+    gap: 1.5vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.75);
+    border: 1px solid #001244;
+    padding: 2vw;
+    border-radius: 5px;
+}
+
+input {
+    box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.75);
+    border: 1px solid #001244;
+    border-radius: 5px;
+    font-size: 0.65em;
+    padding: min(2vw, 2vh);
+}
+
+input:valid {
+    background-color: #03fc35;
+}
+
+input:invalid {
+    background-color: #e30e0e;
+}
+
+#account-info {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+.account-info-text {
+    font-size: max(1.5vw, 18px);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+#logout-button {
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.75);
+    padding: min(1.5vh, 1.5vw);
+    cursor: pointer;
+}
+
+#register-button-form, #login-button-form {
+    background-color: white;
+    cursor: pointer;
+}
+
+#login-to-register-button, #register-to-login-button {
+    cursor: pointer;
+}
+
+#login-to-register-button:hover, #register-to-login-button:hover {
+    color: #f7d6bf;
+}
+
+#register-form.inactive, #login-form.inactive, #account-info.inactive {
+    display: none;
+}

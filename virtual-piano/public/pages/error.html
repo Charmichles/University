@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+    <head>
+        <title>Error 404!</title>
+        <link rel ="icon" href = "../images/favicon.ico" type = "image/x-icon">
+        <link rel="preconnect" href="https://fonts.gstatic.com/%22%3E">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;900&display=swap" rel="stylesheet">
+        <style>
+            html {
+                height: 100%;
+            }
+            body {
+                background-color: #318fb5;
+                height: 100%;
+            }
+            div {
+                display: flex;
+                flex-direction: column;
+                place-items: center;
+                width: max-content;
+                height: min-content;
+                margin: auto;
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            p {
+                font-size: max(1.5vw, 18px);
+                text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+                text-align: center;
+            }
+            button {
+                border: 1px solid black;
+                border-radius: 5px;
+                box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.75);
+                margin-bottom: 2.5vh;
+                padding: min(1.5vh, 1.5vw);
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <p>Error 404! This page does not exist.</p>
+            <button id = "button">Click here to go back to the homepage.</button>
+            <p>(or navigate to localhost:xxxx/index.html for homepage)</p>
+        </div>
+    <script>
+        function goToHomepage() {
+            window.location.replace('/index.html');
+        }
+        const button = document.getElementById('button');
+        button.addEventListener('click', () => goToHomepage());
+    </script>
+    </body>
+</html>
