@@ -1,0 +1,3 @@
+stanzas-2
+verses-5
+rhyme-0,2|1,3
