@@ -6,7 +6,8 @@ from FibonacciHeap import FibonacciHeap
 from DisjointSet import DisjointSet, DisjointSetNode
 
 
-# din proiectul meu pentru IA pygame-checkers - o functie decorator pentru timpul de rulare a altei functii
+# din proiectul meu pentru IA - o functie decorator pentru timpul de rulare a altei functii
+# https://github.com/Charmichles/Facultate/blob/master/pygame-checkers/main.py
 def timing(f):
     '''
         Decorator which prints the execution time of a function using the time package.\n
@@ -99,7 +100,7 @@ class WeightedGraph:
         return mst_edges
     
     @timing
-    def PrimMST(self):
+    def PrimMST(self, directed = False):
 
         # clasa pe care o folosesc pentru informatia din nodurile inserate in heap
         # am nevoie cost si de numarul varfului
@@ -118,7 +119,7 @@ class WeightedGraph:
         # pentru varful de plecare costul este 0, ca sa fie luat primul din heap
         minHeap.decrease_key(nodes[1], NodeInfo(0, 1))
 
-        adj_set = WeightedGraph.get_adjacency_set(self.edges)
+        adj_set = WeightedGraph.get_adjacency_set(self.edges, directed)
         while not minHeap.isEmpty():
             # extrag varful cu costul minim
             minNode = minHeap.extract_min()
@@ -132,4 +133,51 @@ class WeightedGraph:
                     minHeap.decrease_key(nodes[new_idx], NodeInfo(new_cost, new_idx))
         
         return [WeightedGraphEdge(i, parents[i], adj_set[i][parents[i]]) for i in range(2, len(parents))]
+
+    @timing
+    def Dijkstra(self, start, ends, directed = False):
+        
+        # clasa pe care o folosesc pentru informatia din nodurile inserate in heap
+        # am nevoie cost si de numarul varfului
+        @dataclass(order=True, frozen=True)
+        class NodeInfo:
+            cost : int
+            index : int
+
+
+        parents = [0] * (self.vertex_no + 1)
+        minHeap = FibonacciHeap(self.vertex_no)
+        nodes = dict( [ (idx, FibonacciHeap.Node(NodeInfo(sys.maxsize, idx))) for idx in range(1, self.vertex_no + 1) ] )
+        # initial, toate varfurile au costul +INF in heap
+        for node in nodes.values():
+            minHeap.add_to_root_list(node)
+        # pentru varful de plecare costul este 0, ca sa fie luat primul din heap
+        minHeap.decrease_key(nodes[start], NodeInfo(0, start))
+
+        adj_set = WeightedGraph.get_adjacency_set(self.edges, directed)
+        while not minHeap.isEmpty():
+            # extrag varful cu costul minim
+            minNode = minHeap.extract_min()
+            # parcurg varfurile adiacente celui extras
+            if directed and minNode.info.index not in adj_set:
+                continue
+            for new_idx in adj_set[minNode.info.index]:
+                if minHeap.inHeap(nodes[new_idx].info):
+                    # costul nou este egal cu costul drumului calculat inainte plus costul noii muchii
+                    new_cost = minNode.info.cost + adj_set[minNode.info.index][new_idx]
+                    # daca este mai mic decat alt drum gasit atunci actualizam
+                    if new_cost < nodes[new_idx].info.cost:
+                        parents[new_idx] = minNode.info.index
+                        minHeap.decrease_key(nodes[new_idx], NodeInfo(new_cost, new_idx))
+        
+        paths = []
+        for end in ends:
+            path = []
+            curr = end
+            while curr != start:
+                path.append(WeightedGraphEdge(curr, parents[curr], adj_set[curr][parents[curr]] if not directed else adj_set[parents[curr]][curr])) 
+                curr = parents[curr]
+            paths.append(path)
+        
+        return paths
 

@@ -1,14 +1,10 @@
-from __future__ import annotations
-
 # Lab APCM - https://drive.google.com/drive/u/0/folders/1gx37SoaLjPB-PLQ-SXGfK40e6QmWTAiQ
 # Brihac Andrei, Grupa 233
-# https://github.com/Charmichles/University
 # pentru restanta la laboratorul de Algoritmi Fundamentali
 
 import sys
 from Tree import Tree, TreeNode, TreeNodeInfo
 from WeightedGraph import WeightedGraph, WeightedGraphEdge
-from copy import deepcopy
 
 
 def grafDinamic(G : WeightedGraph, e : WeightedGraphEdge, algoritmAPCM):
@@ -131,6 +127,7 @@ def secondBestMST(G : WeightedGraph, algoritmAPCM):
             fout.write(f'{edge_new.vertex1} {edge_new.vertex2}\n')
         else:
             fout.write(f'{edge.vertex1} {edge.vertex2}\n')
+
 
 if __name__ == '__main__':
     grafDinamic(WeightedGraph(file=open('grafpond.in', 'r')), WeightedGraphEdge(3, 5, 4), 'Prim')
