@@ -1,7 +1,0 @@
-id,id_expeditor,id_destinatar,valuta,valoare,soldul_zilei,mesaj,data
-1,cont1,cont1,lei,1000.0,0.0,Alimentare cont,Tue May 25 00:48:30 EEST 2021
-1,cont1,cont1,lei,1000.0,0.0,Alimentare cont,Tue May 25 00:48:30 EEST 2021
-2,cont3,cont1,lei,20.0,800.0,ia,Tue May 25 00:50:52 EEST 2021
-1,cont1,cont1,lei,1000.0,0.0,Alimentare cont,Tue May 25 00:48:30 EEST 2021
-1,cont3,cont3,lei,100.0,0.0,Alimentare cont,Tue May 25 00:50:38 EEST 2021
-2,cont3,cont1,lei,20.0,800.0,ia,Tue May 25 00:50:52 EEST 2021
