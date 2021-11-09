@@ -1,6 +1,4 @@
-Black is played by a computer. White is played by a computer.
-
-Computer using algorithm stupid_algorithm took 0.0002734661102294922 seconds.
+Black is played by a human. White is played by a computer.
 
 Move number 0 - black played.
 
@@ -9,8 +7,8 @@ Move number 0 - black played.
 
 0  # b # b # b # b 
 1  b # b # b # b # 
-2  # b # b # # # b 
-3  # # # # # # b # 
+2  # b # # # b # b 
+3  # # # # b # # # 
 4  # # # # # # # # 
 5  w # w # w # w # 
 6  # w # w # w # w 
@@ -19,7 +17,7 @@ Move number 0 - black played.
 
 End of move number 0.
 
-Computer using algorithm stupid_algorithm took 0.00021767616271972656 seconds.
+Computer using algorithm stupid_algorithm took 0.0001125335693359375 seconds.
 
 Move number 1 - white played.
 
@@ -28,17 +26,15 @@ Move number 1 - white played.
 
 0  # b # b # b # b 
 1  b # b # b # b # 
-2  # b # b # # # b 
-3  # # # # # # b # 
-4  # w # # # # # # 
-5  # # w # w # w # 
+2  # b # # # b # b 
+3  # # # # b # # # 
+4  # # # w # # # # 
+5  w # # # w # w # 
 6  # w # w # w # w 
 7  w # w # w # w # 
 
 
 End of move number 1.
-
-Computer using algorithm stupid_algorithm took 0.0001811981201171875 seconds.
 
 Move number 2 - black played.
 
@@ -47,17 +43,17 @@ Move number 2 - black played.
 
 0  # b # b # b # b 
 1  b # b # b # b # 
-2  # b # b # # # b 
+2  # b # # # b # b 
 3  # # # # # # # # 
-4  # w # # # # # b 
-5  # # w # w # w # 
+4  # # # # # # # # 
+5  w # b # w # w # 
 6  # w # w # w # w 
 7  w # w # w # w # 
 
 
 End of move number 2.
 
-Computer using algorithm stupid_algorithm took 0.0002307891845703125 seconds.
+Computer using algorithm stupid_algorithm took 0.00019884109497070312 seconds.
 
 Move number 3 - white played.
 
@@ -66,17 +62,15 @@ Move number 3 - white played.
 
 0  # b # b # b # b 
 1  b # b # b # b # 
-2  # b # b # # # b 
+2  # b # # # b # b 
 3  # # # # # # # # 
-4  # w # w # # # b 
-5  # # w # # # w # 
-6  # w # w # w # w 
+4  # # # w # # # # 
+5  w # # # w # w # 
+6  # # # w # w # w 
 7  w # w # w # w # 
 
 
 End of move number 3.
-
-Computer using algorithm stupid_algorithm took 0.0001621246337890625 seconds.
 
 Move number 4 - black played.
 
@@ -85,17 +79,17 @@ Move number 4 - black played.
 
 0  # b # b # b # b 
 1  b # b # b # b # 
-2  # # # b # # # b 
-3  b # # # # # # # 
-4  # w # w # # # b 
-5  # # w # # # w # 
-6  # w # w # w # w 
+2  # b # # # # # b 
+3  # # # # b # # # 
+4  # # # w # # # # 
+5  w # # # w # w # 
+6  # # # w # w # w 
 7  w # w # w # w # 
 
 
 End of move number 4.
 
-Computer using algorithm stupid_algorithm took 0.00013780593872070312 seconds.
+Computer using algorithm stupid_algorithm took 0.0002586841583251953 seconds.
 
 Move number 5 - white played.
 
@@ -104,17 +98,15 @@ Move number 5 - white played.
 
 0  # b # b # b # b 
 1  b # b # b # b # 
-2  # # # b # # # b 
-3  b # w # # # # # 
-4  # # # w # # # b 
-5  # # w # # # w # 
-6  # w # w # w # w 
+2  # b # # # w # b 
+3  # # # # # # # # 
+4  # # # # # # # # 
+5  w # # # w # w # 
+6  # # # w # w # w 
 7  w # w # w # w # 
 
 
 End of move number 5.
-
-Computer using algorithm stupid_algorithm took 0.00021910667419433594 seconds.
 
 Move number 6 - black played.
 
@@ -122,18 +114,18 @@ Move number 6 - black played.
    0 1 2 3 4 5 6 7 
 
 0  # b # b # b # b 
-1  b # b # b # b # 
-2  # # # # # # # b 
-3  b # # # # # # # 
-4  # b # w # # # b 
-5  # # w # # # w # 
-6  # w # w # w # w 
+1  b # b # b # # # 
+2  # b # # # # # b 
+3  # # # # b # # # 
+4  # # # # # # # # 
+5  w # # # w # w # 
+6  # # # w # w # w 
 7  w # w # w # w # 
 
 
 End of move number 6.
 
-Computer using algorithm stupid_algorithm took 0.0003185272216796875 seconds.
+Computer using algorithm stupid_algorithm took 0.00014591217041015625 seconds.
 
 Move number 7 - white played.
 
@@ -141,18 +133,16 @@ Move number 7 - white played.
    0 1 2 3 4 5 6 7 
 
 0  # b # b # b # b 
-1  b # b # b # b # 
-2  # # # # # # # b 
-3  b # # # w # # # 
-4  # b # # # # # b 
-5  # # w # # # w # 
-6  # w # w # w # w 
+1  b # b # b # # # 
+2  # b # # # # # b 
+3  # # # # b # # # 
+4  # # # # # w # # 
+5  w # # # w # # # 
+6  # # # w # w # w 
 7  w # w # w # w # 
 
 
 End of move number 7.
-
-Computer using algorithm stupid_algorithm took 0.0002903938293457031 seconds.
 
 Move number 8 - black played.
 
@@ -160,18 +150,18 @@ Move number 8 - black played.
    0 1 2 3 4 5 6 7 
 
 0  # b # b # b # b 
-1  b # b # # # b # 
-2  # # # b # # # b 
-3  b # # # w # # # 
-4  # b # # # # # b 
-5  # # w # # # w # 
-6  # w # w # w # w 
+1  b # b # b # # # 
+2  # b # # # # # b 
+3  # # # # # # # # 
+4  # # # # # # # # 
+5  w # # # w # b # 
+6  # # # w # w # w 
 7  w # w # w # w # 
 
 
 End of move number 8.
 
-Computer using algorithm stupid_algorithm took 0.0001785755157470703 seconds.
+Computer using algorithm stupid_algorithm took 0.00018405914306640625 seconds.
 
 Move number 9 - white played.
 
@@ -179,18 +169,16 @@ Move number 9 - white played.
    0 1 2 3 4 5 6 7 
 
 0  # b # b # b # b 
-1  b # b # # # b # 
-2  # # # b # # # b 
-3  b # # # w # # # 
-4  # b # # # # # b 
-5  # # w # w # w # 
-6  # w # # # w # w 
+1  b # b # b # # # 
+2  # b # # # # # b 
+3  # # # # # # # # 
+4  # # # # # w # # 
+5  w # # # w # # # 
+6  # # # w # w # # 
 7  w # w # w # w # 
 
 
 End of move number 9.
-
-Computer using algorithm stupid_algorithm took 0.0005664825439453125 seconds.
 
 Move number 10 - black played.
 
@@ -198,18 +186,18 @@ Move number 10 - black played.
    0 1 2 3 4 5 6 7 
 
 0  # b # b # b # b 
-1  b # b # # # b # 
-2  # # # b # # # b 
-3  b # # # w # # # 
-4  # # # # # # # b 
-5  # # # # w # w # 
-6  # w # b # w # w 
+1  b # b # b # # # 
+2  # b # # # # # # 
+3  # # # # # # b # 
+4  # # # # # w # # 
+5  w # # # w # # # 
+6  # # # w # w # # 
 7  w # w # w # w # 
 
 
 End of move number 10.
 
-Computer using algorithm stupid_algorithm took 0.0005464553833007812 seconds.
+Computer using algorithm stupid_algorithm took 0.0002105236053466797 seconds.
 
 Move number 11 - white played.
 
@@ -217,1440 +205,54 @@ Move number 11 - white played.
    0 1 2 3 4 5 6 7 
 
 0  # b # b # b # b 
-1  b # b # # # b # 
-2  # # # b # # # b 
-3  b # # # w # # # 
-4  # # # # # # # b 
-5  # # w # w # w # 
-6  # w # # # w # w 
-7  w # w # # # w # 
+1  b # b # b # # # 
+2  # b # # # # # w 
+3  # # # # # # # # 
+4  # # # # # # # # 
+5  w # # # w # # # 
+6  # # # w # w # # 
+7  w # w # w # w # 
 
 
 End of move number 11.
 
-Computer using algorithm stupid_algorithm took 0.0003199577331542969 seconds.
+The game ran for 22 seconds.
+Black is played by a human. White is played by a computer.
 
-Move number 12 - black played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # b # b # b # b 
-1  b # b # # # b # 
-2  # # # # # # # b 
-3  b # # # # # # # 
-4  # # # # # b # b 
-5  # # w # w # w # 
-6  # w # # # w # w 
-7  w # w # # # w # 
-
-
-Consecutive capture move.
-
-Computer using algorithm stupid_algorithm took 0.0004363059997558594 seconds.
-
-Move number 12 - black played.
+Move number 0 - black played.
 
 
    0 1 2 3 4 5 6 7 
 
 0  # b # b # b # b 
-1  b # b # # # b # 
-2  # # # # # # # b 
-3  b # # # # # # # 
-4  # # # # # # # b 
-5  # # w # # # w # 
-6  # w # b # w # w 
-7  w # w # # # w # 
-
-
-End of move number 12.
-
-Computer using algorithm stupid_algorithm took 0.0005106925964355469 seconds.
-
-Move number 13 - white played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # b # b # b # b 
-1  b # b # # # b # 
-2  # # # # # # # b 
-3  b # # # # # # # 
-4  # # # # # # # b 
-5  # # w # w # w # 
-6  # w # # # w # w 
-7  w # # # # # w # 
-
-
-End of move number 13.
-
-Computer using algorithm stupid_algorithm took 0.00013589859008789062 seconds.
-
-Move number 14 - black played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # b # b # b # b 
-1  b # b # # # # # 
-2  # # # # # b # b 
-3  b # # # # # # # 
-4  # # # # # # # b 
-5  # # w # w # w # 
-6  # w # # # w # w 
-7  w # # # # # w # 
-
-
-End of move number 14.
-
-Computer using algorithm stupid_algorithm took 0.0001666545867919922 seconds.
-
-Move number 15 - white played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # b # b # b # b 
-1  b # b # # # # # 
-2  # # # # # b # b 
-3  b # # # # # # # 
-4  # # # # # # # b 
-5  w # w # w # w # 
-6  # # # # # w # w 
-7  w # # # # # w # 
-
-
-End of move number 15.
-
-Computer using algorithm stupid_algorithm took 0.0002663135528564453 seconds.
-
-Move number 16 - black played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # b # # # b # b 
-1  b # b # b # # # 
-2  # # # # # b # b 
-3  b # # # # # # # 
-4  # # # # # # # b 
-5  w # w # w # w # 
-6  # # # # # w # w 
-7  w # # # # # w # 
-
-
-End of move number 16.
-
-Computer using algorithm stupid_algorithm took 0.00033974647521972656 seconds.
-
-Move number 17 - white played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # b # # # b # b 
-1  b # b # b # # # 
-2  # # # # # b # b 
-3  b # # # # # # # 
-4  # w # # # # # b 
-5  # # w # w # w # 
-6  # # # # # w # w 
-7  w # # # # # w # 
-
-
-End of move number 17.
-
-Computer using algorithm stupid_algorithm took 0.0002033710479736328 seconds.
-
-Move number 18 - black played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # b # # # b # b 
-1  # # b # b # # # 
+1  b # b # b # b # 
 2  # b # # # b # b 
-3  b # # # # # # # 
-4  # w # # # # # b 
-5  # # w # w # w # 
-6  # # # # # w # w 
-7  w # # # # # w # 
+3  # # # # b # # # 
+4  # # # # # # # # 
+5  w # w # w # w # 
+6  # w # w # w # w 
+7  w # w # w # w # 
 
 
-End of move number 18.
+End of move number 0.
 
-Computer using algorithm stupid_algorithm took 0.0002574920654296875 seconds.
+Computer using algorithm stupid_algorithm took 0.00012373924255371094 seconds.
 
-Move number 19 - white played.
+Move number 1 - white played.
 
 
    0 1 2 3 4 5 6 7 
 
-0  # b # # # b # b 
-1  # # b # b # # # 
+0  # b # b # b # b 
+1  b # b # b # b # 
 2  # b # # # b # b 
-3  b # # # # # # # 
-4  # w # # # # # b 
-5  # # w # w # w # 
-6  # w # # # w # w 
-7  # # # # # # w # 
-
-
-End of move number 19.
-
-Computer using algorithm stupid_algorithm took 0.0002644062042236328 seconds.
-
-Move number 20 - black played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # b # # # b # b 
-1  # # b # b # # # 
-2  # b # # # # # b 
-3  b # # # # # b # 
-4  # w # # # # # b 
-5  # # w # w # w # 
-6  # w # # # w # w 
-7  # # # # # # w # 
-
-
-End of move number 20.
-
-Computer using algorithm stupid_algorithm took 0.0003190040588378906 seconds.
-
-Move number 21 - white played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # b # # # b # b 
-1  # # b # b # # # 
-2  # b # # # # # b 
-3  b # # # # # b # 
-4  # w # # # w # b 
-5  # # w # w # # # 
-6  # w # # # w # w 
-7  # # # # # # w # 
-
-
-End of move number 21.
-
-Computer using algorithm stupid_algorithm took 0.00016546249389648438 seconds.
-
-Move number 22 - black played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # # # # # b # b 
-1  b # b # b # # # 
-2  # b # # # # # b 
-3  b # # # # # b # 
-4  # w # # # w # b 
-5  # # w # w # # # 
-6  # w # # # w # w 
-7  # # # # # # w # 
-
-
-End of move number 22.
-
-Computer using algorithm stupid_algorithm took 0.00013566017150878906 seconds.
-
-Move number 23 - white played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # # # # # b # b 
-1  b # b # b # # # 
-2  # b # # # # # b 
-3  b # w # # # b # 
-4  # # # # # w # b 
-5  # # w # w # # # 
-6  # w # # # w # w 
-7  # # # # # # w # 
-
-
-End of move number 23.
-
-Computer using algorithm stupid_algorithm took 0.0002598762512207031 seconds.
-
-Move number 24 - black played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # # # # # b # b 
-1  b # b # b # # # 
-2  # # # # # # # b 
-3  b # # # # # b # 
-4  # # # b # w # b 
-5  # # w # w # # # 
-6  # w # # # w # w 
-7  # # # # # # w # 
-
-
-End of move number 24.
-
-Computer using algorithm stupid_algorithm took 0.00025391578674316406 seconds.
-
-Move number 25 - white played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # # # # # b # b 
-1  b # b # b # # # 
-2  # # # # # # # b 
-3  b # # # w # b # 
-4  # # # # # w # b 
-5  # # # # w # # # 
-6  # w # # # w # w 
-7  # # # # # # w # 
-
-
-End of move number 25.
-
-Computer using algorithm stupid_algorithm took 0.0001480579376220703 seconds.
-
-Move number 26 - black played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # # # # # b # b 
-1  b # b # b # # # 
-2  # # # # # # # b 
-3  b # # # w # b # 
-4  # # # # # w # # 
-5  # # # # w # b # 
-6  # w # # # w # w 
-7  # # # # # # w # 
-
-
-End of move number 26.
-
-Computer using algorithm stupid_algorithm took 0.000141143798828125 seconds.
-
-Move number 27 - white played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # # # # # b # b 
-1  b # b # b # # # 
-2  # # # # # # # b 
-3  b # # # w # b # 
-4  # # # # # w # w 
-5  # # # # w # # # 
-6  # w # # # # # w 
-7  # # # # # # w # 
-
-
-Consecutive capture move.
-
-Computer using algorithm stupid_algorithm took 0.00020313262939453125 seconds.
-
-Move number 27 - white played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # # # # # b # b 
-1  b # b # b # # # 
-2  # # # # # w # b 
-3  b # # # w # # # 
-4  # # # # # w # # 
-5  # # # # w # # # 
-6  # w # # # # # w 
-7  # # # # # # w # 
-
-
-Consecutive capture move.
-
-Computer using algorithm stupid_algorithm took 0.0005161762237548828 seconds.
-
-Move number 27 - white played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # # # w # b # b 
-1  b # b # # # # # 
-2  # # # # # # # b 
-3  b # # # w # # # 
-4  # # # # # w # # 
-5  # # # # w # # # 
-6  # w # # # # # w 
-7  # # # # # # w # 
-
-
-End of move number 27.
-
-Computer using algorithm stupid_algorithm took 0.0004112720489501953 seconds.
-
-Move number 28 - black played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # # # W # b # b 
-1  # # b # # # # # 
-2  # b # # # # # b 
-3  b # # # w # # # 
-4  # # # # # w # # 
-5  # # # # w # # # 
-6  # w # # # # # w 
-7  # # # # # # w # 
-
-
-End of move number 28.
-
-Computer using algorithm stupid_algorithm took 0.00043654441833496094 seconds.
-
-Move number 29 - white played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # # # W # b # b 
-1  # # b # # # # # 
-2  # b # # # # # b 
-3  b # # # w # # # 
-4  # # # # # w # # 
-5  # # # # w # # # 
-6  # w # # # w # w 
-7  # # # # # # # # 
-
-
-End of move number 29.
-
-Computer using algorithm stupid_algorithm took 0.0005271434783935547 seconds.
-
-Move number 30 - black played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # # # W # b # b 
-1  # # # # # # # # 
-2  # b # b # # # b 
-3  b # # # w # # # 
-4  # # # # # w # # 
-5  # # # # w # # # 
-6  # w # # # w # w 
-7  # # # # # # # # 
-
-
-End of move number 30.
-
-Computer using algorithm stupid_algorithm took 0.0001418590545654297 seconds.
-
-Move number 31 - white played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # # # W # b # b 
-1  # # w # # # # # 
-2  # b # # # # # b 
-3  b # # # # # # # 
-4  # # # # # w # # 
-5  # # # # w # # # 
-6  # w # # # w # w 
-7  # # # # # # # # 
-
-
-End of move number 31.
-
-Computer using algorithm stupid_algorithm took 0.00015425682067871094 seconds.
-
-Move number 32 - black played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # # # W # b # b 
-1  # # w # # # # # 
-2  # b # # # # # # 
-3  b # # # # # b # 
-4  # # # # # w # # 
-5  # # # # w # # # 
-6  # w # # # w # w 
-7  # # # # # # # # 
-
-
-End of move number 32.
-
-Computer using algorithm stupid_algorithm took 0.000102996826171875 seconds.
-
-Move number 33 - white played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # # # W # b # b 
-1  # # w # # # # # 
-2  # b # # # # # w 
-3  b # # # # # # # 
-4  # # # # # # # # 
-5  # # # # w # # # 
-6  # w # # # w # w 
-7  # # # # # # # # 
-
-
-End of move number 33.
-
-Computer using algorithm stupid_algorithm took 0.00027632713317871094 seconds.
-
-Move number 34 - black played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # # # W # # # b 
-1  # # w # b # # # 
-2  # b # # # # # w 
-3  b # # # # # # # 
-4  # # # # # # # # 
-5  # # # # w # # # 
-6  # w # # # w # w 
-7  # # # # # # # # 
-
-
-End of move number 34.
-
-Computer using algorithm stupid_algorithm took 0.00010037422180175781 seconds.
-
-Move number 35 - white played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # # # # # # # b 
-1  # # w # # # # # 
-2  # b # # # W # w 
-3  b # # # # # # # 
-4  # # # # # # # # 
-5  # # # # w # # # 
-6  # w # # # w # w 
-7  # # # # # # # # 
-
-
-End of move number 35.
-
-Computer using algorithm stupid_algorithm took 0.0002009868621826172 seconds.
-
-Move number 36 - black played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # # # # # # # b 
-1  # # w # # # # # 
-2  # # # # # W # w 
-3  b # b # # # # # 
-4  # # # # # # # # 
-5  # # # # w # # # 
-6  # w # # # w # w 
-7  # # # # # # # # 
-
-
-End of move number 36.
-
-Computer using algorithm stupid_algorithm took 0.0002944469451904297 seconds.
-
-Move number 37 - white played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # # # # # # # b 
-1  # # w # # # # # 
-2  # # # # # W # w 
-3  b # b # # # # # 
+3  # # # # b # # # 
 4  # # # w # # # # 
-5  # # # # # # # # 
-6  # w # # # w # w 
-7  # # # # # # # # 
+5  w # w # # # w # 
+6  # w # w # w # w 
+7  w # w # w # w # 
 
 
-End of move number 37.
+End of move number 1.
 
-Computer using algorithm stupid_algorithm took 0.0002377033233642578 seconds.
-
-Move number 38 - black played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # # # # # # # b 
-1  # # w # # # # # 
-2  # # # # # W # w 
-3  b # # # # # # # 
-4  # # # # # # # # 
-5  # # # # b # # # 
-6  # w # # # w # w 
-7  # # # # # # # # 
-
-
-Consecutive capture move.
-
-Computer using algorithm stupid_algorithm took 0.0003497600555419922 seconds.
-
-Move number 38 - black played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # # # # # # # b 
-1  # # w # # # # # 
-2  # # # # # W # w 
-3  b # # # # # # # 
-4  # # # # # # # # 
-5  # # # # # # # # 
-6  # w # # # # # w 
-7  # # # # # # b # 
-
-
-End of move number 38.
-
-Computer using algorithm stupid_algorithm took 0.004502534866333008 seconds.
-
-Move number 39 - white played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # # # # # # # b 
-1  # # w # # # # # 
-2  # # # # # W # w 
-3  b # # # # # # # 
-4  # # # # # # # # 
-5  # # w # # # # # 
-6  # # # # # # # w 
-7  # # # # # # B # 
-
-
-End of move number 39.
-
-Computer using algorithm stupid_algorithm took 0.0004444122314453125 seconds.
-
-Move number 40 - black played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # # # # # # # # 
-1  # # w # # # b # 
-2  # # # # # W # w 
-3  b # # # # # # # 
-4  # # # # # # # # 
-5  # # w # # # # # 
-6  # # # # # # # w 
-7  # # # # # # B # 
-
-
-End of move number 40.
-
-Computer using algorithm stupid_algorithm took 0.0004143714904785156 seconds.
-
-Move number 41 - white played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # # # # # w # # 
-1  # # w # # # # # 
-2  # # # # # W # # 
-3  b # # # # # # # 
-4  # # # # # # # # 
-5  # # w # # # # # 
-6  # # # # # # # w 
-7  # # # # # # B # 
-
-
-End of move number 41.
-
-Computer using algorithm stupid_algorithm took 0.0009734630584716797 seconds.
-
-Move number 42 - black played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # # # # # W # # 
-1  # # w # # # # # 
-2  # # # # # W # # 
-3  # # # # # # # # 
-4  # b # # # # # # 
-5  # # w # # # # # 
-6  # # # # # # # w 
-7  # # # # # # B # 
-
-
-End of move number 42.
-
-Computer using algorithm stupid_algorithm took 0.0001399517059326172 seconds.
-
-Move number 43 - white played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # # # # # W # # 
-1  # # w # # # # # 
-2  # # # # # W # # 
-3  w # # # # # # # 
-4  # # # # # # # # 
-5  # # # # # # # # 
-6  # # # # # # # w 
-7  # # # # # # B # 
-
-
-End of move number 43.
-
-Computer using algorithm stupid_algorithm took 0.0002086162567138672 seconds.
-
-Move number 44 - black played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # # # # # W # # 
-1  # # w # # # # # 
-2  # # # # # W # # 
-3  w # # # # # # # 
-4  # # # # # # # # 
-5  # # # # # # # # 
-6  # # # # # B # w 
-7  # # # # # # # # 
-
-
-End of move number 44.
-
-Computer using algorithm stupid_algorithm took 0.00016880035400390625 seconds.
-
-Move number 45 - white played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # w # # # W # # 
-1  # # # # # # # # 
-2  # # # # # W # # 
-3  w # # # # # # # 
-4  # # # # # # # # 
-5  # # # # # # # # 
-6  # # # # # B # w 
-7  # # # # # # # # 
-
-
-End of move number 45.
-
-Computer using algorithm stupid_algorithm took 0.00010466575622558594 seconds.
-
-Move number 46 - black played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # W # # # W # # 
-1  # # # # # # # # 
-2  # # # # # W # # 
-3  w # # # # # # # 
-4  # # # # # # # # 
-5  # # # # B # # # 
-6  # # # # # # # w 
-7  # # # # # # # # 
-
-
-End of move number 46.
-
-Computer using algorithm stupid_algorithm took 0.0003082752227783203 seconds.
-
-Move number 47 - white played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # W # # # W # # 
-1  # # # # # # # # 
-2  # # # # # W # # 
-3  w # # # # # # # 
-4  # # # # # # # # 
-5  # # # # B # w # 
-6  # # # # # # # # 
-7  # # # # # # # # 
-
-
-End of move number 47.
-
-Computer using algorithm stupid_algorithm took 0.00010037422180175781 seconds.
-
-Move number 48 - black played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # W # # # W # # 
-1  # # # # # # # # 
-2  # # # # # W # # 
-3  w # # # # # # # 
-4  # # # # # # # # 
-5  # # # # # # w # 
-6  # # # B # # # # 
-7  # # # # # # # # 
-
-
-End of move number 48.
-
-Computer using algorithm stupid_algorithm took 0.000301361083984375 seconds.
-
-Move number 49 - white played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # W # # # W # # 
-1  # # # # # # W # 
-2  # # # # # # # # 
-3  w # # # # # # # 
-4  # # # # # # # # 
-5  # # # # # # w # 
-6  # # # B # # # # 
-7  # # # # # # # # 
-
-
-End of move number 49.
-
-Computer using algorithm stupid_algorithm took 0.00016117095947265625 seconds.
-
-Move number 50 - black played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # W # # # W # # 
-1  # # # # # # W # 
-2  # # # # # # # # 
-3  w # # # # # # # 
-4  # # # # # # # # 
-5  # # B # # # w # 
-6  # # # # # # # # 
-7  # # # # # # # # 
-
-
-End of move number 50.
-
-Computer using algorithm stupid_algorithm took 0.0001881122589111328 seconds.
-
-Move number 51 - white played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # W # # # # # # 
-1  # # # # W # W # 
-2  # # # # # # # # 
-3  w # # # # # # # 
-4  # # # # # # # # 
-5  # # B # # # w # 
-6  # # # # # # # # 
-7  # # # # # # # # 
-
-
-End of move number 51.
-
-Computer using algorithm stupid_algorithm took 0.0001270771026611328 seconds.
-
-Move number 52 - black played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # W # # # # # # 
-1  # # # # W # W # 
-2  # # # # # # # # 
-3  w # # # # # # # 
-4  # # # # # # # # 
-5  # # # # # # w # 
-6  # B # # # # # # 
-7  # # # # # # # # 
-
-
-End of move number 52.
-
-Computer using algorithm stupid_algorithm took 0.00017762184143066406 seconds.
-
-Move number 53 - white played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # W # # # # # # 
-1  # # # # W # W # 
-2  # w # # # # # # 
-3  # # # # # # # # 
-4  # # # # # # # # 
-5  # # # # # # w # 
-6  # B # # # # # # 
-7  # # # # # # # # 
-
-
-End of move number 53.
-
-Computer using algorithm stupid_algorithm took 0.00011396408081054688 seconds.
-
-Move number 54 - black played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # W # # # # # # 
-1  # # # # W # W # 
-2  # w # # # # # # 
-3  # # # # # # # # 
-4  # # # # # # # # 
-5  # # # # # # w # 
-6  # # # # # # # # 
-7  B # # # # # # # 
-
-
-End of move number 54.
-
-Computer using algorithm stupid_algorithm took 0.00012922286987304688 seconds.
-
-Move number 55 - white played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # # # # # # # # 
-1  W # # # W # W # 
-2  # w # # # # # # 
-3  # # # # # # # # 
-4  # # # # # # # # 
-5  # # # # # # w # 
-6  # # # # # # # # 
-7  B # # # # # # # 
-
-
-End of move number 55.
-
-Computer using algorithm stupid_algorithm took 0.0004222393035888672 seconds.
-
-Move number 56 - black played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # # # # # # # # 
-1  W # # # W # W # 
-2  # w # # # # # # 
-3  # # # # # # # # 
-4  # # # # # # # # 
-5  # # # # # # w # 
-6  # B # # # # # # 
-7  # # # # # # # # 
-
-
-End of move number 56.
-
-Computer using algorithm stupid_algorithm took 0.00027871131896972656 seconds.
-
-Move number 57 - white played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # # # W # # # # 
-1  W # # # # # W # 
-2  # w # # # # # # 
-3  # # # # # # # # 
-4  # # # # # # # # 
-5  # # # # # # w # 
-6  # B # # # # # # 
-7  # # # # # # # # 
-
-
-End of move number 57.
-
-Computer using algorithm stupid_algorithm took 0.00014448165893554688 seconds.
-
-Move number 58 - black played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # # # W # # # # 
-1  W # # # # # W # 
-2  # w # # # # # # 
-3  # # # # # # # # 
-4  # # # # # # # # 
-5  B # # # # # w # 
-6  # # # # # # # # 
-7  # # # # # # # # 
-
-
-End of move number 58.
-
-Computer using algorithm stupid_algorithm took 0.0002086162567138672 seconds.
-
-Move number 59 - white played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # # # # # # # # 
-1  W # W # # # W # 
-2  # w # # # # # # 
-3  # # # # # # # # 
-4  # # # # # # # # 
-5  B # # # # # w # 
-6  # # # # # # # # 
-7  # # # # # # # # 
-
-
-End of move number 59.
-
-Computer using algorithm stupid_algorithm took 0.000274658203125 seconds.
-
-Move number 60 - black played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # # # # # # # # 
-1  W # W # # # W # 
-2  # w # # # # # # 
-3  # # # # # # # # 
-4  # B # # # # # # 
-5  # # # # # # w # 
-6  # # # # # # # # 
-7  # # # # # # # # 
-
-
-End of move number 60.
-
-Computer using algorithm stupid_algorithm took 0.0002770423889160156 seconds.
-
-Move number 61 - white played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # # # W # # # # 
-1  W # # # # # W # 
-2  # w # # # # # # 
-3  # # # # # # # # 
-4  # B # # # # # # 
-5  # # # # # # w # 
-6  # # # # # # # # 
-7  # # # # # # # # 
-
-
-End of move number 61.
-
-Computer using algorithm stupid_algorithm took 0.00015401840209960938 seconds.
-
-Move number 62 - black played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # # # W # # # # 
-1  W # # # # # W # 
-2  # w # # # # # # 
-3  # # # # # # # # 
-4  # # # # # # # # 
-5  # # B # # # w # 
-6  # # # # # # # # 
-7  # # # # # # # # 
-
-
-End of move number 62.
-
-Computer using algorithm stupid_algorithm took 0.00012087821960449219 seconds.
-
-Move number 63 - white played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # # # W # # # # 
-1  W # # # # # # # 
-2  # w # # # # # W 
-3  # # # # # # # # 
-4  # # # # # # # # 
-5  # # B # # # w # 
-6  # # # # # # # # 
-7  # # # # # # # # 
-
-
-End of move number 63.
-
-Computer using algorithm stupid_algorithm took 0.00010538101196289062 seconds.
-
-Move number 64 - black played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # # # W # # # # 
-1  W # # # # # # # 
-2  # w # # # # # W 
-3  # # # # # # # # 
-4  # # # # # # # # 
-5  # # # # # # w # 
-6  # B # # # # # # 
-7  # # # # # # # # 
-
-
-End of move number 64.
-
-Computer using algorithm stupid_algorithm took 0.00015115737915039062 seconds.
-
-Move number 65 - white played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # # # # # # # # 
-1  W # # # W # # # 
-2  # w # # # # # W 
-3  # # # # # # # # 
-4  # # # # # # # # 
-5  # # # # # # w # 
-6  # B # # # # # # 
-7  # # # # # # # # 
-
-
-End of move number 65.
-
-Computer using algorithm stupid_algorithm took 0.0004687309265136719 seconds.
-
-Move number 66 - black played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # # # # # # # # 
-1  W # # # W # # # 
-2  # w # # # # # W 
-3  # # # # # # # # 
-4  # # # # # # # # 
-5  B # # # # # w # 
-6  # # # # # # # # 
-7  # # # # # # # # 
-
-
-End of move number 66.
-
-Computer using algorithm stupid_algorithm took 0.0010395050048828125 seconds.
-
-Move number 67 - white played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # # # # # # # # 
-1  W # w # W # # # 
-2  # # # # # # # W 
-3  # # # # # # # # 
-4  # # # # # # # # 
-5  B # # # # # w # 
-6  # # # # # # # # 
-7  # # # # # # # # 
-
-
-End of move number 67.
-
-Computer using algorithm stupid_algorithm took 9.72747802734375e-05 seconds.
-
-Move number 68 - black played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # # # # # # # # 
-1  W # w # W # # # 
-2  # # # # # # # W 
-3  # # # # # # # # 
-4  # # # # # # # # 
-5  # # # # # # w # 
-6  # B # # # # # # 
-7  # # # # # # # # 
-
-
-End of move number 68.
-
-Computer using algorithm stupid_algorithm took 0.00014209747314453125 seconds.
-
-Move number 69 - white played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # # # # # # # # 
-1  W # w # W # # # 
-2  # # # # # # # # 
-3  # # # # # # W # 
-4  # # # # # # # # 
-5  # # # # # # w # 
-6  # B # # # # # # 
-7  # # # # # # # # 
-
-
-End of move number 69.
-
-Computer using algorithm stupid_algorithm took 0.0001385211944580078 seconds.
-
-Move number 70 - black played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # # # # # # # # 
-1  W # w # W # # # 
-2  # # # # # # # # 
-3  # # # # # # W # 
-4  # # # # # # # # 
-5  # # # # # # w # 
-6  # # # # # # # # 
-7  # # B # # # # # 
-
-
-End of move number 70.
-
-Computer using algorithm stupid_algorithm took 0.0006632804870605469 seconds.
-
-Move number 71 - white played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # w # # # # # # 
-1  W # # # W # # # 
-2  # # # # # # # # 
-3  # # # # # # W # 
-4  # # # # # # # # 
-5  # # # # # # w # 
-6  # # # # # # # # 
-7  # # B # # # # # 
-
-
-End of move number 71.
-
-Computer using algorithm stupid_algorithm took 0.00034499168395996094 seconds.
-
-Move number 72 - black played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # W # # # # # # 
-1  W # # # W # # # 
-2  # # # # # # # # 
-3  # # # # # # W # 
-4  # # # # # # # # 
-5  # # # # # # w # 
-6  # # # B # # # # 
-7  # # # # # # # # 
-
-
-End of move number 72.
-
-Computer using algorithm stupid_algorithm took 0.00012183189392089844 seconds.
-
-Move number 73 - white played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # W # # # # # # 
-1  # # # # W # # # 
-2  # W # # # # # # 
-3  # # # # # # W # 
-4  # # # # # # # # 
-5  # # # # # # w # 
-6  # # # B # # # # 
-7  # # # # # # # # 
-
-
-End of move number 73.
-
-Computer using algorithm stupid_algorithm took 0.00012564659118652344 seconds.
-
-Move number 74 - black played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # W # # # # # # 
-1  # # # # W # # # 
-2  # W # # # # # # 
-3  # # # # # # W # 
-4  # # # # # # # # 
-5  # # B # # # w # 
-6  # # # # # # # # 
-7  # # # # # # # # 
-
-
-End of move number 74.
-
-Computer using algorithm stupid_algorithm took 0.00015020370483398438 seconds.
-
-Move number 75 - white played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # W # # # # # # 
-1  # # # # W # # # 
-2  # W # # # W # # 
-3  # # # # # # # # 
-4  # # # # # # # # 
-5  # # B # # # w # 
-6  # # # # # # # # 
-7  # # # # # # # # 
-
-
-End of move number 75.
-
-Computer using algorithm stupid_algorithm took 0.00016641616821289062 seconds.
-
-Move number 76 - black played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # W # # # # # # 
-1  # # # # W # # # 
-2  # W # # # W # # 
-3  # # # # # # # # 
-4  # B # # # # # # 
-5  # # # # # # w # 
-6  # # # # # # # # 
-7  # # # # # # # # 
-
-
-End of move number 76.
-
-Computer using algorithm stupid_algorithm took 0.000164031982421875 seconds.
-
-Move number 77 - white played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # W # # # # # # 
-1  # # # # W # # # 
-2  # # # # # W # # 
-3  # # W # # # # # 
-4  # B # # # # # # 
-5  # # # # # # w # 
-6  # # # # # # # # 
-7  # # # # # # # # 
-
-
-End of move number 77.
-
-Computer using algorithm stupid_algorithm took 0.0003571510314941406 seconds.
-
-Move number 78 - black played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # W # # # # # # 
-1  # # # # W # # # 
-2  # # # B # W # # 
-3  # # # # # # # # 
-4  # # # # # # # # 
-5  # # # # # # w # 
-6  # # # # # # # # 
-7  # # # # # # # # 
-
-
-Consecutive capture move.
-
-Computer using algorithm stupid_algorithm took 0.0002849102020263672 seconds.
-
-Move number 78 - black played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # W # # # B # # 
-1  # # # # # # # # 
-2  # # # # # W # # 
-3  # # # # # # # # 
-4  # # # # # # # # 
-5  # # # # # # w # 
-6  # # # # # # # # 
-7  # # # # # # # # 
-
-
-End of move number 78.
-
-Computer using algorithm stupid_algorithm took 0.0005023479461669922 seconds.
-
-Move number 79 - white played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # W # # # B # # 
-1  # # # # # # # # 
-2  # # # # # W # # 
-3  # # # # # # # # 
-4  # # # # # w # # 
-5  # # # # # # # # 
-6  # # # # # # # # 
-7  # # # # # # # # 
-
-
-End of move number 79.
-
-Computer using algorithm stupid_algorithm took 0.0002651214599609375 seconds.
-
-Move number 80 - black played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # W # # # # # # 
-1  # # # # B # # # 
-2  # # # # # W # # 
-3  # # # # # # # # 
-4  # # # # # w # # 
-5  # # # # # # # # 
-6  # # # # # # # # 
-7  # # # # # # # # 
-
-
-End of move number 80.
-
-Computer using algorithm stupid_algorithm took 0.00025177001953125 seconds.
-
-Move number 81 - white played.
-
-
-   0 1 2 3 4 5 6 7 
-
-0  # W # W # # # # 
-1  # # # # # # # # 
-2  # # # # # # # # 
-3  # # # # # # # # 
-4  # # # # # w # # 
-5  # # # # # # # # 
-6  # # # # # # # # 
-7  # # # # # # # # 
-
-
-End of move number 81.
-
-The game ran for 26 seconds.
+The game ran for 16 seconds.
